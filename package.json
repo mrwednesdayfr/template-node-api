@@ -1,0 +1,17 @@
+{
+  "name": "shardcloud-template-node-api",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "lint": "echo 'no lint configured'",
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-cors": "^8.4.1"
+  }
+}
